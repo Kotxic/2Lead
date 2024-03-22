@@ -1,0 +1,19 @@
+.select{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    width: 200px;
+}
+.select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+option {
+    max-width: 200px !important; /* Максимальная ширина опций списка */
+    white-space: nowrap; /* Запрет переноса текста на новую строку */
+    overflow: hidden; /* Скрытие лишнего содержимого */
+    text-overflow: ellipsis; /* Отображение многоточия, если текст не помещается */
+}

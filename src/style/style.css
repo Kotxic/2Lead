@@ -1,0 +1,20 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main__item{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 2fr;
+}
+.buttons{
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+}
+.buttons__disable{
+    display: none;
+}
+.button__disable{
+
+}
